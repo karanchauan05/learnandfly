@@ -1,0 +1,17 @@
+.about-section {
+    background: #f8cce0;
+    padding: 50px;
+    text-align: left;
+  }
+  
+  .about-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    width: 60%;
+    margin: left;
+  }
+  
