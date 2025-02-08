@@ -1,0 +1,45 @@
+.mission-vision {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    font-family: "Georgia", serif;
+  }
+  
+  .mission,
+  .vision {
+    width: 45%;
+    text-align: center;
+  }
+  
+  .mission h2,
+  .vision h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .why-choose-us {
+    background-color: #d9f3f3;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .why-choose-us h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .why-choose-us ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .why-choose-us li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  

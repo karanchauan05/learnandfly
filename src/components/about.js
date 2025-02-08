@@ -3,7 +3,8 @@ import "./about.css";
 
 const About = () => {
   return (
-    <section className="about-section">
+    <div>
+      <section className="about-section">
       <h2>ABOUT US</h2>
       <p>
         Welcome to Learn-N-Fly Coaching Academy, where learning takes flight! 
@@ -13,6 +14,7 @@ const About = () => {
         general studies and reasoning aptitude covering all competitive exams.
       </p>
     </section>
+    </div>
   );
 };
 
