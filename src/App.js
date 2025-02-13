@@ -1,20 +1,27 @@
-import React from "react";
-import Navbar from "./components/navbar";
-import Header from "./components/header";
-import About from "./components/about";
-import MissionVision from "./components/missionvision";
-import Courses from "./components/courses";
-import Footer from "./components/footer";
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import AboutUs from './components/AboutUs';
+import Mission from './components/Mission';
+import Vision from './components/Vision';
+import WhyChooseUs from './components/WhyChooseUs';
+import Courses from './components/Courses';
+import Educators from './components/Educators';
+import BlogSection from './components/BlogSection';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
+    <div className="flex overflow-hidden flex-col items-center pt-9 bg-white">
       <Header />
-      <About />
-      <MissionVision />
+      <Hero />
+      <AboutUs />
+      <Mission />
+      <Vision />
+      <WhyChooseUs />
       <Courses />
+      <Educators />
+      <BlogSection />
       <Footer />
     </div>
   );
