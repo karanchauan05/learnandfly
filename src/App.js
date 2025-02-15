@@ -1,14 +1,15 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import AboutUs from './components/AbousUs';
+import AboutUs from './components/AboutUs';
 import Mission from './components/Mission';
-import Vision from './components/Vission';
+import Vision from './components/Vision';
 import WhyChooseUs from './components/WhyChooseUs';
 import Courses from './components/Courses';
 import Educators from './components/Educators';
 import BlogSection from './components/BlogSection';
 import Footer from './components/Footer';
+import "./App.css";
 
 const App = () => {
   return (
@@ -24,7 +25,9 @@ const App = () => {
       <BlogSection />
       <Footer />
     </div>
+    
   );
+  
 };
 
 export default App;
